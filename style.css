@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+
+:root
+{
+    --main-color: #F8F0DF;
+}
+
+body
+{
+    background-color: var(--main-color);
+}
+
+.container
+{
+    margin: 1rem auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Archivo Narrow', sans-serif;
+    flex-direction: column;
+}
+
+label
+{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    
+}
+
+.initial-input , .stocks-input , .current-input
+{
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 2px solid #9D9D9D;
+    text-align: center;
+    border-radius: 0.3rem;
+    width: 25%;
+}
+
+.submit-btn
+{
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    background-color: #C8C6C6;
+    color: #4A403A;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: bold;
+    width: 13%;
+}
+
+.submit-btn:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.output
+{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
