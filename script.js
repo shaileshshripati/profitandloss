@@ -11,6 +11,8 @@ function clickHandler()
     const mainPrice = initialInput.value;
     const quantitys = stocksInput.value;
     const currentPrice = currentInput.value;
+    if(mainPrice && quantitys && currentPrice)
+    {
     if(currentPrice > mainPrice)
     {
         var profit = (currentPrice-mainPrice)*quantitys;
@@ -27,6 +29,11 @@ function clickHandler()
     else
     {
         output.innerText = "There is no profit and no loss";
+    }
+    }
+    else
+    {
+        output.innerText = "Please Enter the values!!";
     }
 }
 
